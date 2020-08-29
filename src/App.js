@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/skills" component={Skills} />
         <Route path="/" component={Home} />
       </Switch>
+      <Footer />
     </div>
   );
 }
