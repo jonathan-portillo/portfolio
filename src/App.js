@@ -18,7 +18,7 @@ function App() {
         <Route path="/skills" component={Skills} />
         <Route path="/" component={Home} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
